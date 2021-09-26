@@ -1,7 +1,7 @@
 # Личный проект «Кексобукинг»
 
 * Студент: [Yerazik Hakobyan](https://up.htmlacademy.ru/javascript/24/user/1710667).
-* Наставник: `Неизвестно`.
+* Наставник: [Алексей Хабиров](https://htmlacademy.ru/profile/alex_khab).
 
 ---
 
