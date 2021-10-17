@@ -28,12 +28,22 @@ const getRandomInt = (min, max) => {
 console.log(getRandomInt (1, 6));
 
 
-//Функция, возвращающая случайное число с плавающей точкой из переданного диапазона включительно.
-const getRandomArbitrary = (min, max) => {
+const getRandomNumber = (min, max) => {
   if (min <= 0) {
     return 'Неверный диапазон чисел';
   }
   return Math.random() * (max - min) + min;
+};
+
+console.log(getRandomNumber (1, 50));
+
+//Функция, возвращающая случайное число с плавающей точкой из переданного диапазона включительно.
+
+const getRandomArbitrary = (min, max) => {
+  if (min < 0) {
+    return 'Неверный диапазон чисел';
+  }
+  return (Math.random() * (max - min) + min).toFixed(1);
 };
 
 console.log(getRandomArbitrary (1, 50));
