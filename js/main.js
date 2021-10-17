@@ -13,12 +13,12 @@ const getRandomInt = (min, max) => {
 console.log(getRandomInt (1, 6));
 
 
-const getRandomArbitrary = (min, max) => {
+const getRandomArbitrary = (min, max, digits) => {
   if (min < 0 || min > max) {
     return 'Неверный диапазон чисел';
   }
 
-  return (Math.random() * (max - min) + min).toFixed(1);
+  return (Math.random() * (max - min) + min).toFixed(digits);
 };
 
 // eslint-disable-next-line no-console
